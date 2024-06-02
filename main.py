@@ -1,6 +1,7 @@
-import pygame
 import os
-from typing import Tuple, List, Dict
+from typing import Dict, List, Tuple
+
+import pygame
 
 pygame.init()
 
@@ -460,7 +461,6 @@ def draw_game_over():
         (210, 210),
     )
     screen.blit(font.render("ENTER zum nochmal spielen.", True, SIEGFONT), (210, 240))
-
 
 
 # game loop
